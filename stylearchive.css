@@ -92,3 +92,23 @@
 .download:hover {
   text-shadow: 5px 5px 20px rgb(0, 255, 0);
 }
+
+@media screen and (max-width: 500px){
+
+  .archive { 
+    width: 80%; 
+    height: 80%;
+  }
+
+  .droite { 
+    top: 10%;
+    left: 20%;
+  }
+
+  .download2 {
+    border-width:  25px;
+    bottom: 20%;
+    left: 20%;
+  }
+
+}

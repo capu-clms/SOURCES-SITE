@@ -91,3 +91,24 @@
 .download1:hover {
     text-shadow: 5px 5px 20px rgb(0, 255, 0);
   }
+
+
+
+@media screen and (max-width: 500px){
+
+  .guide { 
+    width: 80%; 
+    height: 80%;
+  }
+
+  .gauche { 
+    top: 70px;
+    left: 15%;
+  }
+
+  .download1 {
+    border-width:  25px;
+    bottom: 30%;
+    left: 20%;
+  }
+}
