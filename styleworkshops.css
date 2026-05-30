@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "editioncontextual";
+    src:
+      url("fonts/editioncontextual/EditionContextualUnlicensed-30.woff") format("woff"),
+      url("fonts/editioncontextual/EditionContextualUnlicensed-50.woff") format("woff"),
+      url("fonts/editioncontextual/EditionContextualUnlicensed-70.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "editioninternational";
+    src:
+      url("fonts/editioninternational/EditionInternationalUnlicensed-30.woff") format("woff"),
+      url("fonts/editioninternational/EditionInternationalUnlicensed-50.woff") format("woff"),
+      url("fonts/editioninternational/EditionInternationalUnlicensed-70.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "editionscriptual";
+    src:
+      url("fonts/editionscriptual/EditionScriptualUnlicensed-30.woff") format("woff"),
+  }
+  
+  @font-face {
+    font-family: "editiontimelessitalic";
+    src:
+      url("fonts/editiontimelessitalic/EditionTimelessItalicUnlicensed-50.woff") format("woff"),
+  }
+
+  html{
+    background-color: #ffffff;
+    opacity: 0.8;
+    background-image:  radial-gradient(#4a0f85 0.5px, transparent 0.5px), radial-gradient(#4a0f85 0.5px, #ffffff 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+  }
+
+  body {
+    font-family: "editioncontextual";
+    font-size: 13px;
+    color: rgb(74, 15, 133);
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  header:hover {
+    text-shadow: 5px 5px 20px rgb(0, 255, 0);
+  }
+
+.pile {
+  height: 80%;
+  /* pour centrer les images */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guide { 
+  border: solid rgb(0, 255, 0);
+  border-radius: 5%;
+  display: flex;
+  max-width: 100%; 
+  object-fit: fill; 
+  width: 50%; 
+  height: 50%;
+}
+
+.gauche { 
+  margin: 0;
+  position: absolute; 
+  top: 70px;
+  left: 30%;
+  cursor: pointer;
+}
+
+.download1 {
+  font-family: "editionscriptual";
+  font-size: 15px;
+  border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAACyUlEQVR4AeycUW7DMAxDs92g9z/kjtBByI/CIKEYa3W7cIAKC6Jk+cUQmo/1e/FfKwEDbcW5LAZqoM0Emsu9/w19Pp5LtmYA3eXeH2j3if+4noE2AzbQlwPN8yvWzQ28fbk4czbSsG8oAaSGDVQlRvQGSgCpYQ706+dryfZ8nH8vzPMm1qyj0GRjeozn3FhjHP3QZGPxfPZYox58DhQS7J4TMNBzPnLUQGVk5wk60Jgj2fI8ivX5fvtorhXrqJENM3Is1pGTDfXMjxrZcq1Ys3yI60ChgN0tAQPd8hj2DHQY4baADjTPm1hv6417MbeyYcUcizXGR/04Uzaxng5U3OBucgNtfuIGOh1ozC3F1oavf+Je1yutmViP+WtW+dM3tIyqJjTQGqeyykDLqGpCA61xKqsMtIyqJjTQGqeyykDLqGpCHWh+z411bZ/PUcWZsomd60DFDe4mN9DmJ26g04Hiu2+eN7Hua/A1laLnbHg+sQvfUBEYkxsoIyTGDVQExuR7oHmeVNa4A+ZgfLbP+sM48+E8e6AgsKsRMFCNF1UbKEWkCfZA8XsY83E/1GN8ts/6wzjz4Tx7oCCwqxEwUI0XVRsoRaQJdKD4vQxnjLZ/t1qvh/3j+cSKOlBxg7vJDbT5iRvodKA4c5obml5u8Hy+oc1P0EANtJlAcznfUANtJtBczjfUQJsJNJfTbyi+6zJ/tGGs313v+dj+///gfjrQ0QP983wDbX7ABjod6OC7Lu2fzTAWpxsQweD5fEMJXzVsoCoxojdQAkgN60Bxhg3OnM1vg0ZtVg/jkZNNJdBcTweqNnwzvYE2P3ADfTnQPJ9ijTMHG2LxUf1oPusP43HmbOv+h5++oYdorgUM9Bq3wywDPURzLcCB4ky5ts/nZonn50A/F8WUzg20GbuB3g6oOMOa+cjlfENlZOcJBnrOR44aqIzsPOEXAAD//+F0OuAAAAAGSURBVAMADQAQxwvK9vEAAAAASUVORK5CYII=") 28 /  30px / 0.2 round;
+  border-width:  35px;
+  border-style:  solid;
+  text-align: center;
+  margin: 0;
+  position: fixed;
+  bottom: 10%;
+  left: 15%;
+}
+
+.download1:hover {
+    text-shadow: 5px 5px 20px rgb(0, 255, 0);
+  }

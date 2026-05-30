@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "editioncontextual";
+    src:
+      url("fonts/editioncontextual/EditionContextualUnlicensed-30.woff") format("woff"),
+      url("fonts/editioncontextual/EditionContextualUnlicensed-50.woff") format("woff"),
+      url("fonts/editioncontextual/EditionContextualUnlicensed-70.woff") format("woff");
+  }
+@font-face {
+  font-family: "editionscriptual";
+  src:
+    url("fonts/editionscriptual/EditionScriptualUnlicensed-30.woff") format("woff"),
+    url("fonts/editionscriptual/EditionScriptualUnlicensed-50.woff") format("woff"),
+    url("fonts/editionscriptual/EditionScriptualUnlicensed-70.woff") format("woff");
+}
+
+@font-face {
+  font-family: "editiontimelessitalic";
+  src:
+    url("fonts/editiontimelessitalic/EditionTimelessItalicUnlicensed-50.woff") format("woff"),
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #ffffff;
+  opacity: 0.8;
+  background-image:  radial-gradient(#4a0f85 0.5px, transparent 0.5px), radial-gradient(#4a0f85 0.5px, #ffffff 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0,10px 10px;
+}
+
+body {
+  font-family: "editioncontextual";
+  font-size: 13px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 10em;
+  margin-left: 10em;
+  color: #4a0f85;
+  background-color: #fff;
+}
+
+h1 {
+  font-family: "editiontimelessitalic";
+  line-height: 20pt;
+}
+
+#stickymenu {
+  position: fixed;
+  bottom: 0vh;
+  right: 0px;
+  z-index: 5000;
+  background-color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 1em;
+  margin: 1.5em;
+  width: auto; 
+  border: 1px solid rgb(0, 255, 0);
+}
+
+li {
+  list-style-type: none;
+  color: inherit;
+}
+
+.tag {
+  border-radius: 5%;
+}
+
+.tag ul {
+  display: inline-flex;
+  padding: 0;
+  line-height: 0;
+  color: inherit;
+  list-style-type: none;
+}
+
+.images {
+  border-radius: 5%;
+  color: rgb(0, 255, 0);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  box-shadow: 0px 0px 15px;
+}
+
+.fleche {
+  width: 1px;
+  position: fixed;
+  bottom: 10%;
+}
+
+#jr {
+  padding-left: 25px;
+  padding-right: 25px;    
+  border: 1px solid rgb(0, 255, 0);
+}
+
+#jo {
+  padding-left: 25px;
+  padding-right: 25px;    
+  border: 1px solid rgb(0, 255, 0);
+}
+
+#bd {
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 1px solid rgb(0, 255, 0);
+}
+
+#ad {
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 1px solid rgb(0, 255, 0);
+}
+
+.stickybox{
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #00ff00;
+  padding: 0;
+}
+
+  .betweenbox {
+    height: 10px;
+    width: 100%;
+    background-color: transparent;
+  }
+
+  /* .chapitre {
+    columns: 2;
+  } */
+  
+  h2 {
+    bottom: 10px;
+    font-size: 17px;
+    display: none;
+  }
+  
+  i {
+    font-family: "editionscriptual";
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover{
+    text-shadow: 0 0 0.5em rgb(0, 255, 0);
+}

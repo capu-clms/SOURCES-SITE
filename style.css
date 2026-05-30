@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'Edition Contextual';
+  src:url("fonts/editioncontextual/EditionContextualUnlicensed-30.woff") format("woff");
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Edition Contextual';
+  src:url("fonts/editioncontextual/EditionContextualUnlicensed-50.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Edition Contextual';
+  src:url("fonts/editioncontextual/EditionContextualUnlicensed-50.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "editioninternational";
+  src:
+    url("fonts/editioninternational/EditionInternationalUnlicensed-30.woff") format("woff"),
+    url("fonts/editioninternational/EditionInternationalUnlicensed-50.woff") format("woff"),
+    url("fonts/editioninternational/EditionInternationalUnlicensed-70.woff") format("woff");
+}
+
+@font-face {
+  font-family: "editionscriptual";
+  src:
+    url("fonts/editionscriptual/EditionScriptualUnlicensed-30.woff") format("woff"),
+}
+
+@font-face {
+  font-family: "editiontimelessitalic";
+  src:
+    url("fonts/editiontimelessitalic/EditionTimelessItalicUnlicensed-50.woff") format("woff"),
+}
+
+html{
+  background-color: #ffffff;
+  opacity: 0.8;
+  background-image:  radial-gradient(#4a0f85 0.5px, transparent 0.5px), radial-gradient(#4a0f85 0.5px, #ffffff 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0,10px 10px;
+}
+
+dialog {
+  border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAACN0lEQVR4AezcwW7rMAxEUTv//8/vLbwwPCrIDDSNa+U2QBBGEi2eEKq7SF9b+uff9qxHuP48aHiDT0sHaPgTA/R20O6E1A3u29966P7cenS9xHSogMyGgM4KynpABWQ27EH1jNErdiekzr87dvfb1S/19KCygLAWALT2sUcBtcnqBSNod2bs2/UUqvM/b/Ra3T4U0PiMoEMG3nAEAHW03pgL6BtIzpQedJe/xZ3sK8w16+9BV0D5YA2AhrEBjYM291Xh662XTvzo0PBHDCigYYFwurFDzfuuN/ezzrTGZwRdp/RbKgE0zA4ooGGBcDo6FNCwQDgdHQpoWCCcjg4FNCwQTkeHfhFouNTPpKNDw86AAhoWCKejQwENC4TT0aGAhgXC6ehQQMMC4XR0KKBhgXC61To0zOOnA9Q3K1cAWvL4g4D6ZuUKQEsefxBQ36xcAWjJ4w8C6puVKwAtefxBQH2zcgWgJY8/CKhvVq4YQeV7N+XqNQa9KhqfEdRLz2wRAFRAZkNAZwVl/Uu+Db/L+Db8N9Bhwpe/sV8FX1/OES8f0DApoL8OKmfCcL3mPmyY//Q3zHrp0PAHDiigYYFwurFDzTNjufvUrv7jd8z5LB/ICCoTCD0BQD2vdjagLZE34WWfgefpcbzS63VnkM7/dKz701j3c1R5Puu4xHSogMyGgM4KynpABWQ27EHP0+N4pVc83j2fdVzPqLtj3d+5859f6fwm7kGbBAxfBQC9ekxHgE4TXhP8BwAA//8t+UIeAAAABklEQVQDALhHUFDKoZr+AAAAAElFTkSuQmCC") 28 /  28px / 0 round;
+  border-width:  28px;
+  border-style:  solid;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+dialog > p {
+  font-family: 'Edition Contextual';
+  color: rgb(74, 15, 133);
+  text-align: center;
+  margin: auto;
+}
+
+h2 {
+  font-family: "editiontimelessitalic";
+  font-size: 12px;
+  text-align: center;
+  --_space: ;
+  background-image: radial-gradient(
+    closest-side var(--_space),
+    #4a0f85 40%,
+    #0f0 100%
+  );
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ref {
+  font-size: bold;
+  text-decoration:#00ff00 wavy underline;
+}
+
+button {
+  font-family: "editioninternational";
+  color: #4a0f85;
+  background-color: #ffffff;
+  border: 30%; 
+  border-color: #4a0f85; 
+  border-radius: 50%;
+  transition-duration: 0.4s;
+  margin-left: 5%;
+}
+
+.quoi{
+  font-size: 20pt;
+  position: fixed;
+  bottom: 30px;
+}
+
+button:hover {
+  background-color: #00ff00;
+}
+
+li {
+  font-family: "editionscriptual";
+  font-size: 5em;
+  text-align: center;
+  margin : 5vw;
+  line-height : 80%;
+  list-style-type: none;
+  color: rgb(74, 15, 133);
+  cursor: default;
+}
+
+li:hover {
+    border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAACyUlEQVR4AeycUW7DMAxDs92g9z/kjtBByI/CIKEYa3W7cIAKC6Jk+cUQmo/1e/FfKwEDbcW5LAZqoM0Emsu9/w19Pp5LtmYA3eXeH2j3if+4noE2AzbQlwPN8yvWzQ28fbk4czbSsG8oAaSGDVQlRvQGSgCpYQ706+dryfZ8nH8vzPMm1qyj0GRjeozn3FhjHP3QZGPxfPZYox58DhQS7J4TMNBzPnLUQGVk5wk60Jgj2fI8ivX5fvtorhXrqJENM3Is1pGTDfXMjxrZcq1Ys3yI60ChgN0tAQPd8hj2DHQY4baADjTPm1hv6417MbeyYcUcizXGR/04Uzaxng5U3OBucgNtfuIGOh1ozC3F1oavf+Je1yutmViP+WtW+dM3tIyqJjTQGqeyykDLqGpCA61xKqsMtIyqJjTQGqeyykDLqGpCHWh+z411bZ/PUcWZsomd60DFDe4mN9DmJ26g04Hiu2+eN7Hua/A1laLnbHg+sQvfUBEYkxsoIyTGDVQExuR7oHmeVNa4A+ZgfLbP+sM48+E8e6AgsKsRMFCNF1UbKEWkCfZA8XsY83E/1GN8ts/6wzjz4Tx7oCCwqxEwUI0XVRsoRaQJdKD4vQxnjLZ/t1qvh/3j+cSKOlBxg7vJDbT5iRvodKA4c5obml5u8Hy+oc1P0EANtJlAcznfUANtJtBczjfUQJsJNJfTbyi+6zJ/tGGs313v+dj+///gfjrQ0QP983wDbX7ABjod6OC7Lu2fzTAWpxsQweD5fEMJXzVsoCoxojdQAkgN60Bxhg3OnM1vg0ZtVg/jkZNNJdBcTweqNnwzvYE2P3ADfTnQPJ9ijTMHG2LxUf1oPusP43HmbOv+h5++oYdorgUM9Bq3wywDPURzLcCB4ky5ts/nZonn50A/F8WUzg20GbuB3g6oOMOa+cjlfENlZOcJBnrOR44aqIzsPOEXAAD//+F0OuAAAAAGSURBVAMADQAQxwvK9vEAAAAASUVORK5CYII=") 28 /  30px / 0.2 round;
+    border-width:  35px;
+    border-style:  solid;
+  }
+
+a {
+  text-decoration: none;
+  color : inherit;
+}
+
+summary {
+  list-style: none;
+}
+
+details > ul {
+  font-family: 'Edition Contextual';
+  font-size: 15px;
+  line-height: 13pt;
+  margin-left: 1%;
+  margin-right: 10%;
+}
+
+#contact {
+  color: rgb(74, 15, 133);
+  font-family: "editioninternational";
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+}
