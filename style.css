@@ -51,9 +51,10 @@ dialog {
   border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAACN0lEQVR4AezcwW7rMAxEUTv//8/vLbwwPCrIDDSNa+U2QBBGEi2eEKq7SF9b+uff9qxHuP48aHiDT0sHaPgTA/R20O6E1A3u29966P7cenS9xHSogMyGgM4KynpABWQ27EH1jNErdiekzr87dvfb1S/19KCygLAWALT2sUcBtcnqBSNod2bs2/UUqvM/b/Ra3T4U0PiMoEMG3nAEAHW03pgL6BtIzpQedJe/xZ3sK8w16+9BV0D5YA2AhrEBjYM291Xh662XTvzo0PBHDCigYYFwurFDzfuuN/ezzrTGZwRdp/RbKgE0zA4ooGGBcDo6FNCwQDgdHQpoWCCcjg4FNCwQTkeHfhFouNTPpKNDw86AAhoWCKejQwENC4TT0aGAhgXC6ehQQMMC4XR0KKBhgXC61To0zOOnA9Q3K1cAWvL4g4D6ZuUKQEsefxBQ36xcAWjJ4w8C6puVKwAtefxBQH2zcgWgJY8/CKhvVq4YQeV7N+XqNQa9KhqfEdRLz2wRAFRAZkNAZwVl/Uu+Db/L+Db8N9Bhwpe/sV8FX1/OES8f0DApoL8OKmfCcL3mPmyY//Q3zHrp0PAHDiigYYFwurFDzTNjufvUrv7jd8z5LB/ICCoTCD0BQD2vdjagLZE34WWfgefpcbzS63VnkM7/dKz701j3c1R5Puu4xHSogMyGgM4KynpABWQ27EHP0+N4pVc83j2fdVzPqLtj3d+5859f6fwm7kGbBAxfBQC9ekxHgE4TXhP8BwAA//8t+UIeAAAABklEQVQDALhHUFDKoZr+AAAAAElFTkSuQmCC") 28 /  28px / 0 round;
   border-width:  28px;
   border-style:  solid;
-  margin-top: 5%;
   margin-left: 15%;
   margin-right: 15%;
+  padding: 0;
+  background-color: #fff;
 }
 
 dialog > p {
